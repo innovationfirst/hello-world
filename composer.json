@@ -1,0 +1,18 @@
+{
+    "name": "ifi/hello-world",
+    "description": "basic hello world composer component",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jason Saunders",
+            "email": "jason_saunders@innovationfirst.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
